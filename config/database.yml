@@ -7,6 +7,15 @@ development:
   username: mc
   password:
 
+test:
+  adapter: postgresql
+  database: sample_32_test
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: mc
+  password:
+
 production:
   adapter: postgresql
   database: sample_32_prod
