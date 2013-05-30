@@ -34,6 +34,9 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.3.2, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber-rails (v1.3.1, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="database_cleaner (v1.0.1, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.2, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, ruby) [gem]" level="application" />
@@ -41,6 +44,7 @@
     <orderEntry type="library" scope="PROVIDED" name="factory_girl_rails (v4.2.1, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.6.0, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.4, ruby) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gherkin (v2.12.0, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard (v1.7.0, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-rspec (v2.5.2, ruby) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-spork (v1.5.0, ruby) [gem]" level="application" />
