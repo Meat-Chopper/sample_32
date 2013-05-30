@@ -7,7 +7,7 @@ development:
   username: mc
   password:
 
-test:
+test: &test
   adapter: postgresql
   database: sample_32_test
   pool: 5
@@ -24,3 +24,6 @@ production:
   host: localhost
   username: mc
   password: uni6mmx35
+
+cucumber:
+  <<: *test
