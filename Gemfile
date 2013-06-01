@@ -4,12 +4,15 @@ gem 'rails' #, '3.2.13'
 gem 'bootstrap-sass' #, '2.1'
 gem 'pg' #, '0.12.2'
 gem 'bcrypt-ruby' #, '3.0.1'
+gem 'faker' #, '1.0.1'
+gem 'will_paginate' #, '3.0.3'
+gem 'bootstrap-will_paginate' #, '0.0.6'
 
 group :development, :test do
   gem 'rspec-rails' #, '2.11.0'
-  gem 'guard-rspec' #, '1.2.1'
-  gem 'guard-spork' #, '1.2.0'
-  gem 'spork' #, '0.9.2'
+#  gem 'guard-rspec' #, '1.2.1'
+#  gem 'guard-spork' #, '1.2.0'
+#  gem 'spork' #, '0.9.2'
 end
 
 group :development do
@@ -28,9 +31,9 @@ gem 'jquery-rails' #, '2.0.2'
 
 group :test do
   gem 'capybara' #, '1.1.2'
-  gem 'rb-fchange'# , '0.0.5'
-  gem 'rb-notifu'# , '0.0.4'
-  gem 'win32console' #, '1.3.0'
+#  gem 'rb-fchange'# , '0.0.5'
+#  gem 'rb-notifu'# , '0.0.4'
+#  gem 'win32console' #, '1.3.0'
   gem 'factory_girl_rails' #, '4.1.0'
   gem 'cucumber-rails', :require => false #'1.2.1',
   gem 'database_cleaner' #, '0.7.0'
