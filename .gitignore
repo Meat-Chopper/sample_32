@@ -21,3 +21,6 @@ doc/
 .DS_Store
 /tmp
 bundler_stubs/
+
+# Ignore IDE settings
+/.idea
