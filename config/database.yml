@@ -23,7 +23,7 @@ production:
   timeout: 5000
   host: localhost
   username: mc
-  password: uni6mmx35
+  password: sample
 
 cucumber:
   <<: *test
