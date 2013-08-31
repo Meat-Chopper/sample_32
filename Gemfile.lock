@@ -164,6 +164,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  activeresource
   annotate
   bcrypt-ruby
   bootstrap-sass
