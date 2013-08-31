@@ -166,7 +166,7 @@ PLATFORMS
 DEPENDENCIES
   activeresource
   annotate
-  bcrypt-ruby
+  bcrypt-ruby (= 3.0.1)
   bootstrap-sass
   bootstrap-will_paginate
   capybara
