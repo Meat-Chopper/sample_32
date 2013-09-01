@@ -10,6 +10,7 @@
 #
 
 class User < ActiveRecord::Base
+  attr_accessible :name, :email, :password, :password_confirmation
   has_secure_password
   has_many :microposts, dependent: :destroy
 
@@ -30,10 +31,6 @@ class User < ActiveRecord::Base
   end
 
   private
-
-    def user_params
-      params.require(:user).permit(:name, :email, :password, :password_confirmation)
-    end
 
     def create_remember_token
       self.remember_token = SecureRandom.urlsafe_base64
