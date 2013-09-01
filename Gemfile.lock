@@ -164,7 +164,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  activeresource
   annotate
   bcrypt-ruby (= 3.0.1)
   bootstrap-sass
@@ -177,7 +176,7 @@ DEPENDENCIES
   faker
   jquery-rails
   pg
-  rails
+  rails (= 3.2.13)
   rspec-rails
   sass-rails
   uglifier
